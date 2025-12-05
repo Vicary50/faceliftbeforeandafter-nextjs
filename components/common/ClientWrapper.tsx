@@ -77,8 +77,9 @@ export default function ClientWrapper({ children }: ClientWrapperProps) {
 
     // Smooth scroll
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener('click', function (e) {
-        const href = (this as HTMLAnchorElement).getAttribute('href');
+      anchor.addEventListener('click', (e) => {
+        const anchorEl = e.currentTarget as HTMLAnchorElement;
+        const href = anchorEl.getAttribute('href') || anchorEl.href;
         if (href && href !== '#' && href.length > 1) {
           const target = document.querySelector(href);
           if (target) {
