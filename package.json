@@ -1,0 +1,36 @@
+{
+  "name": "breast-reduction-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "build:breast-reduction": "NEXT_PUBLIC_PROCEDURE=breast-reduction next build",
+    "build:facelift": "NEXT_PUBLIC_PROCEDURE=facelift next build",
+    "build:tummy-tuck": "NEXT_PUBLIC_PROCEDURE=tummy-tuck next build",
+    "build:arm-lift": "NEXT_PUBLIC_PROCEDURE=arm-lift next build",
+    "build:mummy-makeover": "NEXT_PUBLIC_PROCEDURE=mummy-makeover next build",
+    "build:breast-enlargement": "NEXT_PUBLIC_PROCEDURE=breast-enlargement next build",
+    "build:breast-enlargement-lift": "NEXT_PUBLIC_PROCEDURE=breast-enlargement-lift next build",
+    "build:lipoedema": "NEXT_PUBLIC_PROCEDURE=lipoedema next build",
+    "build:thigh-lift": "NEXT_PUBLIC_PROCEDURE=thigh-lift next build",
+    "build:all": "npm run build:breast-reduction && npm run build:facelift && npm run build:tummy-tuck && npm run build:arm-lift && npm run build:mummy-makeover && npm run build:breast-enlargement && npm run build:breast-enlargement-lift && npm run build:lipoedema && npm run build:thigh-lift"
+  },
+  "dependencies": {
+    "next": "16.0.5",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

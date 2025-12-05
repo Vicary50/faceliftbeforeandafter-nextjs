@@ -1,0 +1,11 @@
+export { default as HeroSection } from './HeroSection';
+export { default as AccreditationsSection } from './AccreditationsSection';
+export { default as GoogleReviewsSection } from './GoogleReviewsSection';
+export { default as AboutSection } from './AboutSection';
+export { default as GallerySection } from './GallerySection';
+export { default as PricingSection } from './PricingSection';
+export { default as SurgeonsSection } from './SurgeonsSection';
+export { default as VideoSection } from './VideoSection';
+export { default as DetailedContentSection } from './DetailedContentSection';
+export { default as FaqSection } from './FaqSection';
+export { default as ContactSection } from './ContactSection';
