@@ -143,7 +143,7 @@ const faceliftConfig: ProcedureConfig = {
     youtubeId: 'sv3GLjpKJZE',
     heading: 'Watch Deep Plane Facelift Surgery at Kinvara Private Hospital',
     description: 'See how our consultant plastic surgeons perform deep plane facelift surgery at Kinvara Private Hospital. This video takes you through the surgical process, from the initial incisions to the final result, giving you a clear understanding of what to expect from your procedure.',
-    customThumbnail: '/images/facelift/Youtube thumbnail/Deep plane facelift video thumbnail.webp'
+    customThumbnail: '/images/facelift/youtube-thumbnail/Deep plane facelift video thumbnail.webp'
   },
 
   // Detailed Content
