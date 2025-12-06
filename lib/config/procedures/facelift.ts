@@ -11,7 +11,7 @@ const faceliftConfig: ProcedureConfig = {
   hero: {
     heading: 'Facelift Before and After Photos',
     subheading: 'Real patients. Life-changing results. See their transformations and imagine your own journey to renewed confidence.',
-    backgroundImage: '/images/facelift/hero/facelift-hero-background.png',
+    backgroundImage: '/images/facelift/hero/Facelift before and after hero image.png',
     prices: [
       {
         label: 'Full Facelift & Necklift (overnight stay)',
