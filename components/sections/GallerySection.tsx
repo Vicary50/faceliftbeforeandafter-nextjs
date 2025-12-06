@@ -66,7 +66,7 @@ export default function GallerySection({ config }: GallerySectionProps) {
 
       // Build image paths only for views that exist
       viewSuffixes.forEach(suffix => {
-        const imagePath = `${images.basePath}/${basePattern} ${suffix}.png`;
+        const imagePath = `${images.basePath}/${basePattern} ${suffix}.webp`;
         patientImages.push(imagePath);
       });
 
@@ -123,7 +123,7 @@ export default function GallerySection({ config }: GallerySectionProps) {
                 alt={`${config.displayName} Patient ${patient.patientNumber} View ${idx + 1}`}
                 width={800}
                 height={550}
-                loading="eager"
+                loading={idx < 3 ? "eager" : "lazy"}
               />
             </a>
           ))}
