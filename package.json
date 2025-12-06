@@ -19,7 +19,7 @@
     "build:all": "npm run build:breast-reduction && npm run build:facelift && npm run build:tummy-tuck && npm run build:arm-lift && npm run build:mummy-makeover && npm run build:breast-enlargement && npm run build:breast-enlargement-lift && npm run build:lipoedema && npm run build:thigh-lift"
   },
   "dependencies": {
-    "next": "16.0.5",
+    "next": "16.0.7",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
@@ -29,7 +29,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.0.5",
+    "eslint-config-next": "16.0.7",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
