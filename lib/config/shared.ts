@@ -25,14 +25,14 @@ export const sharedConfig: SharedConfig = {
       credentials: 'Consultant Plastic Surgeon',
       gmcNumber: '4631035',
       linkedInUrl: 'https://www.linkedin.com/in/vasukarri/',
-      imagePath: '/images/Our surgeons - 400x500/Breast reduction before and after Mr Vasu Karri.png',
+      imagePath: '/images/Our surgeons - 400x500/Breast reduction before and after Mr Vasu Karri.webp',
       description: 'GMC: 4631035'
     },
     {
       name: 'Mr Guirgis Awad',
       credentials: 'Consultant Plastic Surgeon',
       linkedInUrl: 'https://www.linkedin.com/in/guirgis-awad-0b841185/?originalSubdomain=uk',
-      imagePath: '/images/Our surgeons - 400x500/Breast reduction before and after Mr Guirgis Awad.png',
+      imagePath: '/images/Our surgeons - 400x500/Breast reduction before and after Mr Guirgis Awad.webp',
       description: 'Consultant Plastic & Cosmetic Surgeon'
     }
   ],
@@ -66,27 +66,27 @@ export const sharedConfig: SharedConfig = {
     logos: [
       {
         name: 'Royal College of Surgeons of England',
-        imagePath: '/images/Icons - 64x64/Royal College of Surgeons of England.png',
+        imagePath: '/images/Icons - 64x64/Royal College of Surgeons of England.webp',
         url: 'https://www.rcseng.ac.uk/'
       },
       {
         name: 'GMC',
-        imagePath: '/images/Icons - 64x64/GMC.png',
+        imagePath: '/images/Icons - 64x64/GMC.webp',
         url: 'https://www.gmc-uk.org/'
       },
       {
         name: 'CQC',
-        imagePath: '/images/Icons - 64x64/CQC.png',
+        imagePath: '/images/Icons - 64x64/CQC.webp',
         url: 'https://www.cqc.org.uk/'
       },
       {
         name: 'PHIN',
-        imagePath: '/images/Icons - 64x64/PHIN.png',
+        imagePath: '/images/Icons - 64x64/PHIN.webp',
         url: 'https://www.phin.org.uk/'
       },
       {
         name: 'British Association of Plastic Surgeons',
-        imagePath: '/images/Icons - 64x64/British Association of Plastic Surgeons.png',
+        imagePath: '/images/Icons - 64x64/British Association of Plastic Surgeons.webp',
         url: 'https://www.bapras.org.uk/'
       }
     ],
@@ -95,7 +95,7 @@ export const sharedConfig: SharedConfig = {
       credentials: 'Consultant Plastic Surgeon',
       gmcNumber: '4631035',
       linkedInUrl: 'https://www.linkedin.com/in/vasukarri/',
-      imagePath: '/images/Our surgeons - 400x500/Breast reduction before and after Mr Vasu Karri.png',
+      imagePath: '/images/Our surgeons - 400x500/Breast reduction before and after Mr Vasu Karri.webp',
       description: 'GMC: 4631035'
     }
   },
@@ -121,8 +121,8 @@ export const sharedConfig: SharedConfig = {
   },
 
   ratings: {
-    googleImagePath: '/images/Hero image Google stars - 200x40/Kinvara Private Hospital Google rating.png',
-    trustpilotImagePath: '/images/Hero image Trustpilot/Kinvara Private Hospital Trustpilot rating.png'
+    googleImagePath: '/images/Hero image Google stars - 200x40/Kinvara Private Hospital Google rating.webp',
+    trustpilotImagePath: '/images/Hero image Trustpilot/Kinvara Private Hospital Trustpilot rating.webp'
   },
 
   procedureLinks: [
